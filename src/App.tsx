@@ -1,9 +1,11 @@
 import React from 'react';
-import AlagoasMap from './components/AlagoasMap';
+import Map from './components/Map';
+import './components/Map/node_modules/leaflet/dist/leaflet.css';
+
 
 function App() {
   return (
-     <AlagoasMap />
+     <Map />
   );
 }
 

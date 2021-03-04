@@ -1,16 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 //import { WeatherShower } from '@styled-icons/typicons';
-import  { MapContainer, TileLayer, Marker, Popup, useMapEvents }  from 'react-leaflet';
+import  { MapContainer, TileLayer}  from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 
 
-const AlagoasMap: React.FC = () => {
+
+
+const Map: React.FC = () =>  {
     return(
-        <>
-            <MapContainer 
+        <>  
+            <MapContainer
                 center={[-9.572873,-37.153327]} 
                 zoom={8} 
-                style={ { width: '100%', height: '100%' , position: 'absolute' }}
+                style={ { width: '60%', height: '60%' , position: 'absolute' }}
                 scrollWheelZoom={false}
                 
             >
@@ -19,12 +21,11 @@ const AlagoasMap: React.FC = () => {
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
                 {/* <TileLayer url={`https://api.mapbox.com/styles/v4/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}/> */}
-           </MapContainer>
-           
+           </MapContainer>           
         </>
         
     );
 }
 
-export default AlagoasMap; 
+export default Map; 
 
