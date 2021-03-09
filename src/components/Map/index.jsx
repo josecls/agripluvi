@@ -1,5 +1,4 @@
 import React  from 'react';
-import { WeatherShower } from '@styled-icons/typicons';
 import  { MapContainer, TileLayer, GeoJSON}  from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import alagoasgeo from  '../../data/alagoas.json';
