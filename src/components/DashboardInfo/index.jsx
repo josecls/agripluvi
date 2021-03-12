@@ -1,14 +1,14 @@
-import React, { useState } from 'react'
-import { IconDiv, Container, valueInfo, titleInfo } from './styles'
+import React from 'react'
+import { IconDiv, Container, TitleInfo, ValueInfo } from './styles'
 
 const DashboardInfo = (props) => {
   return (
     <Container>
       <IconDiv style={{ backgroundColor: props.backgroundColor }}>
-        <img src={props.img} style={{ width: '60%', height: '60%' }} />
+        <img src={props.img} alt="" />
       </IconDiv>
-      <titleInfo>{props.title}</titleInfo>
-      <valueInfo>{props.value}</valueInfo>
+      <TitleInfo>{props.title}</TitleInfo>
+      <ValueInfo>{props.value}</ValueInfo>
     </Container >
   )
 }

@@ -1,16 +1,18 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    grid-area: 'DASH';
-    display: flex;
-    flex-wrap: wrap;
+    background: #fff;
+    padding: 7px;
+    border-radius: 5px;
+    width: 70%;
     height: 100%;
-    width: 100%;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
-    
-`
+    align-items: center;
+    margin: 100px;
+`;
 
 export const Separator = styled.div`
   height: 34vh;
