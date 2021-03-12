@@ -9,7 +9,7 @@ const Map = () =>  {
     return(
         <Container>  
             <MapContainer
-                center={[-9.572873,-37.153327]} 
+                center={[-9.572873,-36.523327]} 
                 zoom={9}  
                 style={ { width: '100%', height: '100%', marginTop: '0px' }}
                 scrollWheelZoom={false}
@@ -23,7 +23,7 @@ const Map = () =>  {
                 {/* <TileLayer url={`https://api.mapbox.com/styles/v4/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}/> */}
            </MapContainer>    
                   
-        </Container >
+        </Container>
         
     );
 }
