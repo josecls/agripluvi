@@ -7,6 +7,12 @@ const MainDashboard = () => {
 
     return (
         <Container>
+            <DashboardInfo
+                backgroundColor='#FF0'
+                title='algum titulo'
+                value='algum valor'
+                img='https://img.icons8.com/ios/452/banana.png'
+            />
             {/* <BestCulture />
             <Umidity />
             <Temperature /> */}
