@@ -1,9 +1,10 @@
+import MapContainer from '@material-ui/core/Container';
+
 import styled from 'styled-components';
 
-export const Container = styled.div`
-    grid-area: 'MAP';
-    display: flex;
-    flex-direction: column;
-    width: 1000px;
-    padding-left: 15vw;
+export const Container = styled(MapContainer)`
+    background: #f5f3f3;
+    padding: 10px;
+    border-radius: 5px;
+
 `;
