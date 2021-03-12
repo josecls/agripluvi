@@ -7,11 +7,11 @@ import { Container } from './styles';
 
 const Map = () =>  {
     return(
-        <Container>  
+        <Container>
             <MapContainer
                 center={[-9.572873,-36.523327]} 
                 zoom={9}  
-                style={ { width: '100%', height: '100%', marginTop: '0px' }}
+                style={{ width: '100%', height: '100%' }}
                 scrollWheelZoom={false}
                 
             >
@@ -21,10 +21,8 @@ const Map = () =>  {
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
                 {/* <TileLayer url={`https://api.mapbox.com/styles/v4/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}/> */}
-           </MapContainer>    
-                  
-        </Container>
-        
+        </MapContainer>      
+        </Container>    
     );
 }
 

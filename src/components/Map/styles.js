@@ -1,10 +1,13 @@
-import MapContainer from '@material-ui/core/Container';
-
 import styled from 'styled-components';
 
-export const Container = styled(MapContainer)`
-    background: #f5f3f3;
-    padding: 10px;
+export const Container = styled.div`
+    background: #fff;
+    padding: 7px;
     border-radius: 5px;
-
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
 `;
