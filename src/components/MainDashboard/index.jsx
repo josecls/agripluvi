@@ -1,10 +1,11 @@
 import React from 'react'
 import { Container, Separator } from './styles'
+import DashboardInfo from '../DashboardInfo'
 
 
 const MainDashboard = () => {
 
-    return(
+    return (
         <Container>
             {/* <BestCulture />
             <Umidity />
