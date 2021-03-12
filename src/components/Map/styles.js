@@ -1,9 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    grid-area: 'MAP';
+    background: #fff;
+    padding: 7px;
+    border-radius: 5px;
+    width: 70%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    width: 1000px;
-    padding-left: 15vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 `;

@@ -1,4 +1,11 @@
-import styled from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
+
+export const GlobalStyle = createGlobalStyle`
+    html, body, #root {
+        margin: 0;
+        padding: 0;
+    }
+`;
 
 export const MainContainer = styled.div`
     display: flex;
@@ -9,5 +16,5 @@ export const MainContainer = styled.div`
     justify-content: center;
     align-content: center;
     width: 80vw;
-    height: 60vh
+    height: 60vh;
 `

@@ -7,8 +7,8 @@ export const Container = styled.div`
   align-content: center;
   justify-content: center;
 
-  width: 300px;
-  height: 34vh;
+  width: 220px;
+  height: 220px;
 `
 
 export const IconDiv = styled.div`
@@ -18,17 +18,22 @@ export const IconDiv = styled.div`
   align-items: center;
 
   border-radius: 50%;
-  height: 60%;
-  width: 42%;
+  height: 220px;
+  width: 220px;
+
+  img {
+    height: 128px;
+    width: 128px;
+  }
   `
 
-export const titleInfo = styled.h4`
+export const TitleInfo = styled.h4`
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #09679b;
   margin-top: 4px;
   `
 
-export const valueInfo = styled.h3`
+export const ValueInfo = styled.h3`
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 30px;
   `
