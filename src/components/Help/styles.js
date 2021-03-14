@@ -15,6 +15,7 @@ export const HelpIcon = styled(Help)`
   &:hover {
     transition: .5s color;
     color: #87FF65;
+    cursor: pointer;
   }
 `;
 
