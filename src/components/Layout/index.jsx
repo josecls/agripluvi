@@ -1,14 +1,14 @@
 import React from 'react';
-import { LayoutContainer } from './styles';
-import MainDashboard from '../MainDashboard';
+import { LayoutContainer, Title } from './styles';
+// import MainDashboard from '../MainDashboard';
 import Map from '../Map';
 
 const Layout = () => {
     return(
         <LayoutContainer>
-            <h1>agri.pluvi</h1>
+            <Title>agri.pluvi</Title>
             <Map />
-            <MainDashboard />
+            {/* <MainDashboard /> */}
         </LayoutContainer>
            
     );
