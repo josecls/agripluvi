@@ -1,19 +1,18 @@
 import styled from 'styled-components'
+import container from '@material-ui/core/Container'
 
-export const Container = styled.div`
+export const Container = styled(container)`
   position: relative;
   background: #fff;
-  padding: 7px;
   border-radius: 5px;
-  width: 70%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  width: 100%;
+  height: 100% !important;
+  min-height: 100vh;
+  display: flex !important;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 128px !important;
+  margin-bottom: 50px !important;
 `;
 
 export const Separator = styled.div`
