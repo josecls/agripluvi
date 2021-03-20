@@ -20,11 +20,13 @@ const Map = () => {
 
         map.on('click', (e) => {
             setPosition(e.latlng)
-            map.flyTo(e.latlng, undefined, { animate: true, easeLinearity: true })
+            console.log(position)
+            map.flyTo(e.latlng, undefined)
+            //scroll.scrollToBottom()
         });
 
         return position === null ? null : (
-            <Marker position={position} draggable interactive >
+            <Marker position={position} draggable>
                 <Popup>Você está aqui</Popup>
             </Marker>
         )

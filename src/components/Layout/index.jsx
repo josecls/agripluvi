@@ -7,7 +7,7 @@ const Layout = () => {
     return (
         <>
             <LayoutContainer>
-                <Title style={{ fontSize: '33px' }}>Selecione uma região</Title>
+                <Title>Selecione uma região</Title>
                 <Map />
                 <MainDashboard />
             </LayoutContainer>

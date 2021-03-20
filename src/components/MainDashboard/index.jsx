@@ -1,48 +1,57 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid'
 import DashboardInfo from '../DashboardInfo'
-import { Container } from './styles'
+import ReturnButton from '../ReturnButton'
+import { Container, Title, Subtitle, TextArea } from './styles'
+
+import cultura from '../../assets/images/banana.png'
+import temperatura from '../../assets/images/temperatura.svg'
+import umidade from '../../assets/images/umidade.svg'
+import chuva from '../../assets/images/chuva.svg'
 
 const MainDashboard = () => {
     return (
         <Container>
+            <TextArea>
+                <Title>Seus resultados</Title>
+                <Subtitle>A região selecionada foi Avenida Brasil, 744, São Paulo - São Paulo</Subtitle>
+            </TextArea>
             <Grid container justify="center" spacing={4}>
-
                 <Grid item>
                     <DashboardInfo
-                        backgroundColor="yellow"
+                        backgroundColor="#941C2F"
                         title="Cultura"
-                        value="valor"
-                        img="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pasta-salad-horizontal-jpg-1522265695.jpg"
+                        value="Banana"
+                        img={cultura}
                     />
                 </Grid>
                 <Grid item>
                     <DashboardInfo
-                        backgroundColor="yellow"
+                        backgroundColor="#FFD166"
                         title="Temperatura"
-                        value="valor"
-                        img="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pasta-salad-horizontal-jpg-1522265695.jpg"
+                        value="0"
+                        img={temperatura}
                     />
                 </Grid>
                 <Grid item>
                     <DashboardInfo
-                        backgroundColor="yellow"
+                        backgroundColor="#06D6A0"
                         title="Umidade"
-                        value="valor"
-                        img="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pasta-salad-horizontal-jpg-1522265695.jpg"
+                        value="0"
+                        img={umidade}
                     />
                 </Grid>
                 <Grid item>
                     <DashboardInfo
-                        backgroundColor="yellow"
+                        backgroundColor="#B49FCC"
                         title="Chuva"
-                        value="valor"
-                        img="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pasta-salad-horizontal-jpg-1522265695.jpg"
+                        value="0"
+                        img={chuva}
                     />
                 </Grid>
             </Grid>
+            <ReturnButton />
         </Container>
-
     );
 
 }
