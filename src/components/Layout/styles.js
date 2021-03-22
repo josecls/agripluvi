@@ -10,8 +10,9 @@ export const LayoutContainer = styled.div`
 `;
 
 export const Title = styled.h1`
-    font-size: 45px;
+    font-size: 40px;
     color: #fff;
-    margin-top: 70px;
+    margin-top: 100px;
     margin-bottom: 0px;
+    text-align: center;
 `;
