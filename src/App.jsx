@@ -1,17 +1,12 @@
-import React from 'react';
-import Layout from './components/Layout';
-import Background from './components/Background';
-import Help from './components/Help';
+import React from 'react'
 import HomePage from './pages/HomePage/HomePage'
-import { GlobalStyle } from './globalStyles';
+import RegionPage from './pages/RegionPage/RegionPage'
+import { GlobalStyle } from './globalStyles'
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Background />
-      <Help />
-      <Layout />
     </>
   );
 }
