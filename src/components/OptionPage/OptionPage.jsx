@@ -8,7 +8,9 @@ function OptionPage(props) {
   return (
     <Container>
       <Paragraph>{props.text}</Paragraph>
-      <OptionIcon src={optionIcon} />
+      <a href={props.page}>
+        <OptionIcon src={optionIcon} />
+      </a>
     </Container>
   )
 }

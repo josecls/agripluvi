@@ -8,11 +8,6 @@ export const Container = styled.div`
   align-items: center;
   height: 21%;
   width: 25%;
-  cursor: pointer;
-
-  :hover {
-    opacity: 70%;
-  }
 `
 
 export const Paragraph = styled.p`
@@ -25,4 +20,9 @@ export const Paragraph = styled.p`
 export const OptionIcon = styled.img`
   width: 200px;
   height: 140px;
+  cursor: pointer;
+
+  :hover {
+    opacity: 70%;
+  }
 `
