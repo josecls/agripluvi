@@ -34,25 +34,6 @@ flex-direction: center;
 align-content: center;
 `
 
-/*export const FirstContentBlock = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  height: 70%;
-  width: 100%;
-`
-
-export const SecondContentBlock = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  height: 30%;
-  width: 100%;
-`
-*/
-
 export const Paragraph = styled.p`
   font-size: 23px;
   text-align: justify;
