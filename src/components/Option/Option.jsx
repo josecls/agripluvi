@@ -4,7 +4,7 @@ import optionIcon from '../../assets/images/region.png'
 
 import { Container, OptionIcon, Paragraph } from './styles'
 
-function OptionPage(props) {
+function Option(props) {
   return (
     <Container>
       <Paragraph>{props.text}</Paragraph>
@@ -15,4 +15,4 @@ function OptionPage(props) {
   )
 }
 
-export default OptionPage
+export default Option
