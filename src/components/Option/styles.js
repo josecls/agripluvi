@@ -6,12 +6,11 @@ export const Container = styled.div`
   align-content: center;
   justify-content: center;
   align-items: center;
-  height: 21%;
-  width: 25%;
+  height: 50%;
+  width: 20%;
 `
 
 export const Paragraph = styled.p`
-  margin-top: 70px;
   font-weight: 400;
   font-size: 18px;
   text-align: center;
