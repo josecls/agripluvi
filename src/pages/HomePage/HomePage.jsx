@@ -34,12 +34,15 @@ function HomePage() {
               cultivo das principais culturas no estado de Alagoas!  As informações
               fornecidas são tiradas diretamente de dados vindos das estações de
               medição espalhadas em todo o Estado de Alagoas e disponibilizados no
-              site do Instituto Nacional de Metereologia. Apenas selecione um das
-              opções abaixo para começar:
+              site do Instituto Nacional de Metereologia. Apenas clique em um dos
+              ícones baixo para começar:
           </Paragraph>
           </FirstContentBlock>
           <SecondContentBlock>
-            <OptionPage text='Em quais regiões é melhor plantar determinada cultura?' />
+            <OptionPage
+              text='Em quais regiões é melhor plantar determinada cultura?'
+              page='/region-option'
+            />
           </SecondContentBlock>
         </ContentDiv>
       </Container>
