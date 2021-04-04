@@ -13,17 +13,21 @@ const Map = () => {
     const LocationMarker = () => {
         const map = useMapEvents({})
 
-        map.locate({ setView: true, enableHighAccuracy: true })
-            .on('locationfound', (e) => {
-                setPosition(e.latlng)
-            })
-
         map.on('click', (e) => {
             setPosition(e.latlng)
             console.log(position)
             map.flyTo(e.latlng, undefined)
             //scroll.scrollToBottom()
         });
+
+        function locateUser() {
+            map.locate({ setView: true, enableHighAccuracy: true })
+                .on('locationfound', (e) => {
+                    setPosition(e.latlng)
+                })
+        }
+
+        locateUser()
 
         return position === null ? null : (
             <Marker position={position} draggable>
