@@ -1,4 +1,15 @@
 import styled from 'styled-components';
+import select from '@material-ui/core/Select'
+import menuItem from '@material-ui/core/MenuItem'
+
+export const Select = styled(select)`
+    margin-top: 30px;
+    background: #fff !important;
+    font-size: 15px !important;
+`;
+
+export const MenuItem = styled(menuItem)`
+`;
 
 export const LayoutContainer = styled.div`
     display: flex;

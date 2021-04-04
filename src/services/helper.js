@@ -1,4 +1,4 @@
-import EU from '../assets/images/EU.jpg';
+import cultura from '../assets/images/cultura.png';
 import mamao from '../assets/images/mamao.png';
 import banana from '../assets/images/banana.png';
 import goiaba from '../assets/images/goiaba.png';
@@ -9,7 +9,7 @@ import umidade from '../assets/images/umidade.svg';
 import chuva from '../assets/images/chuva.svg';
 
 export const assets = {
-    undefined: EU,
+    'Não definido': cultura,
     mamao,
     banana,
     goiaba,

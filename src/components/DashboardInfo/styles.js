@@ -24,10 +24,12 @@ export const IconDiv = styled.div`
 
 export const TitleInfo = styled.h4`
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
   color: #09679b;
 `
 
 export const ValueInfo = styled.h3`
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
   font-size: 20px;
 `

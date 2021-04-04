@@ -15,9 +15,7 @@ const Map = () => {
 
         map.on('click', (e) => {
             setPosition(e.latlng)
-            console.log(position)
             map.flyTo(e.latlng, undefined)
-            //scroll.scrollToBottom()
         });
 
         function locateUser() {
